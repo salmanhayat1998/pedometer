@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2617418c13b7c40a7ee01c315dd4c6, type: 3}
+  m_Name: StepGoalData
+  m_EditorClassIdentifier: 
+  goalList:
+  - name: Underweight
+    goals:
+    - 7000-8000 steps daily
+    - 30-45 mins walk daily
+    - Build stamina, avoid over-exertion, and aim for gradual weight gain with proper
+      nutrition.
+  - name: 'Normal Weight '
+    goals:
+    - 8000-10000 steps daily
+    - 45-60 mins walk daily
+    - ' Maintain current weight, improve heart health, and boost overall fitness.'
+  - name: Overweight
+    goals:
+    - 10000-12000 steps daily
+    - 60-75 mins walk daily
+    - Gradual weight loss, improve metabolism, and strengthen muscles.
+  - name: Obese
+    goals:
+    - 6000-8000 steps daily
+    - 30-60 mins walk daily
+    - Safe weight loss, reduce joint stress, improve cardiovascular health, and prevent
+      fatigue.
